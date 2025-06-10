@@ -27,7 +27,7 @@ int main () {
     infile.open(NamaFile, ios::in);
     cout << endl << ">= Membuka dan membaca file " << endl;
     if (infile.is_open())
-    
+
     {
         while (getline(infile, baris))
         {
@@ -37,4 +37,5 @@ int main () {
     }
     else cout << "Unable to open file";
     return 0;
+    
 }
